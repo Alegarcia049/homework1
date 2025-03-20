@@ -1,0 +1,34 @@
+# Ignorar archivos de configuración local
+.env
+*.local
+
+# Ignorar dependencias de Node.js
+node_modules/
+
+# Ignorar archivos generados por el IDE
+.idea/
+.vscode/
+
+# Ignorar archivos de compilación
+build/
+dist/
+*.exe
+*.out
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de respaldo
+*.bak
+*.tmp
+
+# Ignorar archivos específicos del proyecto
+config.json
+
+#PDF
+*.pdf
+*.txt
