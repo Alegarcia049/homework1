@@ -15,7 +15,7 @@ vector<vector<int>> matrix_gen(int n){
     return matrix;
 }
 
-void matrix_print(vector<vector<u_int>> matrix) {
+void matrix_print(vector<vector<int>> matrix) {
     const char* subindices[] = {"₁", "₂", "₃", "₄", "₅", "₆", "₇", "₈", "₉"};
     int size = matrix.size() - 1; //me quedo con el size para controlar los indices luego
     int i = size;

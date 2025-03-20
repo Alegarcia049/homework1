@@ -1,6 +1,5 @@
 #include <iostream>
 #include <chrono>
-#include "compare_words.h"
 
 using namespace std;
 
