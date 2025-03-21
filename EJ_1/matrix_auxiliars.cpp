@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector<vector<int>> matrix_gen(int n){
+vector<vector<int>> matrix_gen(int n){ //pienso la matriz como un vector de vectores
     vector<vector<int>> matrix(n, vector<int>(n));
     int val = 1;
     for (int i = 0; i < n; i++) {

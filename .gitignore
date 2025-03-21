@@ -29,6 +29,7 @@ Thumbs.db
 # Ignorar archivos específicos del proyecto
 config.json
 
-#PDF
+#Extras
 *.pdf
 *.txt
+makefile

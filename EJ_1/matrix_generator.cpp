@@ -9,7 +9,7 @@ int main(){
     try {
         int n;
         cout << "Enter a positive natural number: ";
-        while (!(cin >> n) || n <= 0) {
+        while (!(cin >> n) || n <= 0) { //ensures n is an (int) greater than 0 and requests new entry
             cin.clear();
             cout << "Invalid entry, try again: ";
         }
